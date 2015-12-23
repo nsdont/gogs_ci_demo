@@ -82,7 +82,7 @@ class ItemModelTest(TestCase):
 class NewVistorTest(StaticLiveServerTestCase):
 
     def setUp(self):
-        self.browser = webdriver.Chrome('/usr/bin/google-chrome')
+        self.browser = webdriver.Chrome('/usr/local/bin/chromedriver')
 
     def tearDown(self):
         self.browser.quit()
